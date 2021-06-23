@@ -3,6 +3,6 @@
 sh make-rclone-conf.sh
 sh make-amb-conf.sh
 
-bash automysqlbackup -f automysqlbackup.conf
+bash automysqlbackup
 
 rclone sync /var/backup vatusa-backups:vatusa-db-backup
